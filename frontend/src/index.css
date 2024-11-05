@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  /* Your existing styles */
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Customize the scrollbar */
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #332f2f;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(147, 10, 63, 0.95); /* Primary color with 95% opacity */
+    border-radius: 10px;
+    border: 3px solid #f1f1f1;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(147, 10, 63, 1); /* Primary color with 100% opacity */
+  }
